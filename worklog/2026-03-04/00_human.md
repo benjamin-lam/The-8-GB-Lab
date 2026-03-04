@@ -1,0 +1,48 @@
+# Worklog — 2026-03-04
+
+## Context
+
+Start des Repositories für das PDD Manifesto.
+
+Die zentrale Idee des Projekts:
+Softwareentwicklung nicht nur umzusetzen, sondern nachvollziehbar zu dokumentieren.
+
+Die Dokumentation soll nicht nachträglich entstehen, sondern parallel zur Entwicklung.
+
+## Decision
+
+Ein Worklog wird als Kernbestandteil des Repositories eingeführt.
+
+Das Projekt dokumentiert Entscheidungen kontinuierlich.
+
+Nicht als fertiges Buch,
+bsondern als nachvollziehbare Entwicklung.
+
+## Why
+
+Viele technische Bücher zeigen nur das fertige Ergebnis.
+
+Der eigentliche Erkenntnisprozess geht verloren.
+
+Das Ziel dieses Projekts ist es,
+den Weg sichtbar zu machen.
+
+Nicht nur das Resultat.
+
+## Result
+
+Repository-Struktur steht.
+
+Das Projekt folgt einem **docs-first Ansatz**.
+
+Dokumentation, Blueprints und Worklog sind zentrale Bestandteile.
+
+Code entsteht als Folge der dokumentierten Entscheidungen.
+
+## Next
+
+Blueprint-Struktur definieren.
+
+Templates für Kapitel und Experimente erstellen.
+
+Minimalen Build-Prozess für Markdown → HTML definieren.
