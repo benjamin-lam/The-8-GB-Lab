@@ -1,0 +1,56 @@
+---
+iteration: 2
+phase: alignment
+prompt: 2026-03-04_001_repo-model.md
+model: claude-sonnet-4-5
+agent_role: alignment_orchestrator
+timestamp: 2026-03-04T13:25:00Z
+---
+
+## Context
+
+Ausführung des zweiten Alignment-Prompts: 2026-03-04_001_repo-model.md
+
+Aufgabe: Mentales Modell des Repositories erstellen.
+
+Erklärung der Interaktion zwischen Verzeichnissen, Klassifizierung der Artefakte, und Beschreibung des Change-Lifecycle.
+
+## Decision
+
+Repository-Modell vollständig analysiert.
+
+Die Verzeichnisstruktur wurde als System mit Inputs, Outputs und Entscheidungs-Artefakten modelliert.
+
+Der Change-Lifecycle wurde dokumentiert:
+Intent → Context Check → Trade-offs? → Plan → Prompt → Implementation → Review → Worklog → Next
+
+## Why
+
+Ein mentales Modell ist erforderlich, um zu verstehen:
+- Welche Artefakte wohin fließen
+- Welche Verzeichnisse Inputs vs. Outputs sind
+- Wie Entscheidungen den Rest des Systems beeinflussen
+
+Ohne dieses Modell würde der Agent Änderungen an der falschen Stelle vornehmen oder den Lifecycle nicht einhalten.
+
+## Result
+
+Mentales Modell erstellt:
+
+**/meta** = Kontrollschicht (Regeln und Prinzipien)
+**/worklog** = Chronologische Spur
+**/decisions** = Architekturkanon (ADRs)
+**/prompts** = Input-Archiv (versionierte KI-Eingaben)
+**/docs** = Content-Output (Markdown → Website)
+**/scripts** = Build-Werkzeuge (Markdown → HTML)
+**/templates** = HTML-Gerüst
+
+Inputs: /prompts, /meta, menschliche Intents
+Outputs: /docs, /scripts, /templates, /site
+Entscheidungen: /decisions, /worklog
+
+Der Lifecycle ist verstanden und kann befolgt werden.
+
+## Next
+
+Fortsetzung mit dem nächsten Alignment-Prompt: 2026-03-04_002_risk-analysis.md
