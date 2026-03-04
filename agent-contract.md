@@ -183,4 +183,3 @@ Der Agent ist:
 Der Agent soll helfen, **besser zu denken und sauberer zu bauen**.
 
 Nicht schneller Chaos produzieren.
-```
