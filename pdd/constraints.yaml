@@ -1,0 +1,22 @@
+global:
+  hardware: 'Low-resource: ~8GB RAM, older CPU. Prefer CPU over RAM, no parallel models.'
+  principles:
+  - KISS
+  - YAGNI
+  - small steps
+  - document decisions
+  forbidden:
+  - eval(
+  - exec(
+  - os.system(
+  - subprocess.Popen(
+  output:
+    language: de
+    code_blocks: 'If code: wrap in fenced markdown blocks with language tag.'
+python:
+  runtime: Python 3.11+
+  style:
+  - include a main entrypoint
+  - add docstrings/comments for intent
+  safety:
+  - no shell execution unless explicitly requested and justified

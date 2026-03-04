@@ -1,0 +1,20 @@
+orchestrator:
+  purpose: Synthesizes prompts, runs retrieval, manages iteration and logging.
+  tone: precise, pragmatic, low-resource aware
+generator:
+  purpose: Produces candidate output for requested artifact.
+  role: Code Author / Draft Writer
+  constraints:
+  - Follow constraints.yaml
+  - Prefer small, testable steps
+  - Avoid unnecessary dependencies
+reviewer:
+  purpose: Validates output against rules and constraints; returns actionable feedback.
+  role: Quality Gate / Critic
+  principles:
+  - Deterministic checks first
+  - Be explicit about failures
+  - Suggest minimal fixes
+retriever:
+  purpose: Returns relevant snippets from knowledge_base via SQLite FTS5.
+  role: Context Provider
